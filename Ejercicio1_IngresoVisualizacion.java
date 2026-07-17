@@ -16,13 +16,13 @@ public class Ejercicio1_IngresoVisualizacion {
         int[] numeros = new int[10];
 
         System.out.println("--- Ejercicio 1: Ingreso y visualizacion ---");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.print("Ingrese el numero en la posicion " + i + ": ");
             numeros[i] = teclado.nextInt();
         }
 
         System.out.println("\nValores almacenados en el arreglo:");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.println("Posicion " + i + ": " + numeros[i]);
         }
     }

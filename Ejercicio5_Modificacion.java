@@ -17,7 +17,7 @@ public class Ejercicio5_Modificacion {
         int numIngresado;
 
         System.out.println("--- Ejercicio 5: Modificacion del arreglo ---");
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             do {
                 System.out.print("Ingrese un numero positivo para la posicion " + i + ": ");
                 numIngresado = teclado.nextInt();
@@ -30,7 +30,7 @@ public class Ejercicio5_Modificacion {
         }
 
         System.out.println("\nArreglo resultante tras sumar el indice a cada numero:");
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.println("Posicion " + i + ": " + numeros[i]);
         }
     }

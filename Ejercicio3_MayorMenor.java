@@ -20,7 +20,7 @@ public class Ejercicio3_MayorMenor {
         int posMenor = 0;
 
         System.out.println("--- Ejercicio 3: Mayor y menor ---");
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.print("Ingrese el numero en la posicion " + i + ": ");
             numeros[i] = teclado.nextInt();
         }
@@ -28,7 +28,7 @@ public class Ejercicio3_MayorMenor {
         mayor = numeros[0];
         menor = numeros[0];
 
-        for (int i = 1; i < 15; i++) {
+        for (int i = 1; i < numeros.length; i++) {
             if (numeros[i] > mayor) {
                 mayor = numeros[i];
                 posMayor = i;

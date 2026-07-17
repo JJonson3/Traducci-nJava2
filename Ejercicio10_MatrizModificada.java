@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Johan David Auilar Cardenas
+ * @author Johan David Aguilar Cardenas
  */
 public class Ejercicio10_MatrizModificada {
     public static void main(String[] args) {
@@ -17,8 +17,8 @@ public class Ejercicio10_MatrizModificada {
         int valorIngresado;
 
         System.out.println("--- Ejercicio 10: Matriz modificada 3x5 ---");
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
                 System.out.print("Ingrese el valor para la fila " + i + ", columna " + j + ": ");
                 valorIngresado = teclado.nextInt();
                 matriz[i][j] = valorIngresado + (i * j);
@@ -26,8 +26,8 @@ public class Ejercicio10_MatrizModificada {
         }
 
         System.out.println("\nMatriz resultante:");
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 5; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
                 System.out.print(matriz[i][j] + "\t");
             }
             System.out.println();

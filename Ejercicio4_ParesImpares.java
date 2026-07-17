@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Johan David Auilar Cardenas
+ * @author Johan David Aguilar Cardenas
  */
 public class Ejercicio4_ParesImpares {
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class Ejercicio4_ParesImpares {
         int sumaImpares = 0;
 
         System.out.println("--- Ejercicio 4: Numeros pares e impares ---");
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.print("Ingrese el numero #" + (i + 1) + ": ");
             numeros[i] = teclado.nextInt();
 

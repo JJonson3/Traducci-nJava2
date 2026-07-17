@@ -18,13 +18,13 @@ public class Ejercicio2_SumaPromedio {
         double promedio;
 
         System.out.println("--- Ejercicio 2: Suma y promedio ---");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < numeros.length; i++) {
             System.out.print("Ingrese el numero real #" + (i + 1) + ": ");
             numeros[i] = teclado.nextDouble();
             suma += numeros[i];
         }
 
-        promedio = suma / 10;
+        promedio = suma / numeros.length;
 
         System.out.println("\nResultados:");
         System.out.println("Suma total: " + suma);
